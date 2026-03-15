@@ -35,4 +35,9 @@ public class StatisticHelp
         int max = numbers.Max();
         return max;
     }
+
+    public int GetMin()
+    {
+        return numbers.Min();
+    }
 }
