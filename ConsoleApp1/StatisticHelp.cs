@@ -5,7 +5,12 @@ public class StatisticHelp
     private List<int> numbers;
     public StatisticHelp(List<int> numbers)
     {
+        if (numbers.Count == 0)
+        {
+            throw new ArgumentException("You must provide at least one number");
+        }
         this.numbers = numbers;
+        
     }
 
     public int GetSum()
