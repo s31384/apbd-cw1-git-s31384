@@ -38,6 +38,7 @@ public class StatisticHelp
 
     public int GetMin()
     {
+        Console.WriteLine("You used GetMin!");
         return numbers.Min();
     }
 }
