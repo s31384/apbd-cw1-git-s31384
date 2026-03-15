@@ -28,4 +28,10 @@ public class StatisticHelp
         double avarage = numbers.Average();
         return avarage;
     }
+
+    public int GetMax()
+    {
+        int max = numbers.Max();
+        return max;
+    }
 }
