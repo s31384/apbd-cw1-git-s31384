@@ -7,4 +7,14 @@ public class StatisticHelp
     {
         this.numbers = numbers;
     }
+
+    public int GetSum()
+    {
+        int sum = 0;
+        foreach (int i in numbers )
+        {
+            sum += i;
+        }
+        return sum;
+    }
 }
