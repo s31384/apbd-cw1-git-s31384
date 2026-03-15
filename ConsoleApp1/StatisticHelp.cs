@@ -10,6 +10,7 @@ public class StatisticHelp
             throw new ArgumentException("You must provide at least one number");
         }
         this.numbers = numbers;
+        Console.WriteLine("Your numbers: " +  string.Join(", ", numbers));
         
     }
 
