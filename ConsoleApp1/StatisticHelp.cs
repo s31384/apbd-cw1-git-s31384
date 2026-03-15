@@ -11,7 +11,7 @@ public class StatisticHelp
         }
         this.numbers = numbers;
         Console.WriteLine("Your numbers: " +  string.Join(", ", numbers));
-        
+        Console.WriteLine("Your created StatisticHelp!");
     }
 
     public int GetSum()
