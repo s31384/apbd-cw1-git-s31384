@@ -22,4 +22,10 @@ public class StatisticHelp
         }
         return sum;
     }
+
+    public double GetAverage()
+    {
+        double avarage = numbers.Average();
+        return avarage;
+    }
 }
