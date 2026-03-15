@@ -11,6 +11,7 @@ public class StatisticHelp
         }
         this.numbers = numbers;
         Console.WriteLine("Your numbers: " +  string.Join(", ", numbers));
+        Console.WriteLine("Your created StatisticHelp!");
         Console.WriteLine("You welcome in StatisticHelp");
     }
 
